@@ -10,6 +10,10 @@ body {
     background-attachment: fixed;
 }
 
+.navbar-brand {
+    font-weight: bolder;
+  }
+
 .logo-img{
  
     width: 35px;

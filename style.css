@@ -3,6 +3,7 @@ body {
   font-family: 'Oswald', sans-serif;
   background-image: url("img/bg.png");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 body section {
@@ -14,6 +15,10 @@ body section {
 body section .row {
   align-items: center;
   height: 100%; 
+}
+
+.navbar-brand {
+  font-weight: bolder;
 }
 
 .card {
