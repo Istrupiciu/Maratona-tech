@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+
+}
+body{
+  background-color: #000;
+}
+
+.container{
+
+  display: flex;
+  justify-content: center;
+}
+#div-diagonal {
+  display: inline-block;
+  
+
+width: 300px;
+height: 800px;
+background: purple;
+ -webkit-transform: skew(-20deg); /* Chrome, Opera */
+    -ms-transform: skew(-20deg); /* IE */
+        transform: skew(-20deg);
+}
+#div-diagonal2 {
+  display: inline-block;
+
+width: 300px;
+height: 800px;
+background: blue;
+ -webkit-transform: skew(-20deg); /* Chrome, Opera */
+    -ms-transform: skew(-20deg); /* IE */
+        transform: skew(-20deg);
+}
+#div-diagonal3 {
+  display: inline-block;
+
+width: 300px;
+height: 800px;
+background: purple;
+ -webkit-transform: skew(-20deg); /* Chrome, Opera */
+    -ms-transform: skew(-20deg); /* IE */
+        transform: skew(-20deg);
+}
+#div-diagonal4 {
+  display: inline-block;
+
+width: 300px;
+height: 800px;
+background: green;
+ -webkit-transform: skew(-20deg); /* Chrome, Opera */
+    -ms-transform: skew(-20deg); /* IE */
+        transform: skew(-20deg);
+}
+#div-diagonal5 {
+  display: inline-block;
+
+width: 300px;
+height: 800px;
+background: blue;
+ -webkit-transform: skew(-20deg); /* Chrome, Opera */
+    -ms-transform: skew(-20deg); /* IE */
+        transform: skew(-20deg);
+}
+#div-diagonal6 {
+  display: inline-block;
+
+width: 300px;
+height: 800px;
+background: purple;
+ -webkit-transform: skew(-20deg); /* Chrome, Opera */
+    -ms-transform: skew(-20deg); /* IE */
+        transform: skew(-20deg);
+}
+
+
+.roxo{
+  background-color: purple;
+  transition: all 0.25s ease-in-out;
+}
+.azul{
+  background-color: blue;
+  transition: all 0.25s ease-in-out;
+}
+.verde{
+  background-color: green;
+  transition: all 0.25s ease-in-out;
+}
+  
