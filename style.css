@@ -58,7 +58,8 @@ body section .row {
   background-size: cover;
     }
     .card:hover .cover h1 {
-      transform: translateZ(100px); }
+      transform: translateZ(100px);
+    }
     .card:hover .cover .price {
       transform: translateZ(60px); }
     .card:hover .cover a {
@@ -95,20 +96,8 @@ body section .row {
       z-index: 2;
       transition: ease all 1.3s;
       background: rgba(0, 0, 0, 0.4); }
-    .card .cover.item-a {
-      background-image: url("./imgs/dataBase.jpg"); }
-    .card .cover.item-b {
-      background-image: url("./imgs/design.jpeg"); }
-    .card .cover.item-c {
-      background-image: url("./imgs/cienciascp.png"); 
-    background-position: -150px;}
-      .card .cover.item-d {
-        background-image: url("./imgs/cienciascp2.png"); }
-        .card .cover.item-e {
-          background-image: url("./imgs/sistemainf.jpg"); }
-
-          .card .cover.item-f {
-            background-image: url("./imgs/cienciascp3.png"); }
+    .card .cover.item {
+      background-color: midnightblue; }
       .card .cover h1 {
       font-weight: 600;
       position: absolute;
