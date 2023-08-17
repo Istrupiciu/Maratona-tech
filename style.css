@@ -53,7 +53,6 @@ body section .row {
     .card:hover .cover:before {
       transform: translateZ(30px); }
     #card:hover .cover:after{
-      background-image: url(./img/Esdras.png);
     background-repeat: no-repeat;
     
   background-size: cover;
